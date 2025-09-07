@@ -1,0 +1,61 @@
+.recipe-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recipe-banner {
+  width: 100%;
+  height: 450px; /* bigger hero height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.recipe-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ); /* subtle overlay */
+  border-radius: 15px;
+}
+
+.recipe-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.recipe-container p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.recipe-container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #555;
+}

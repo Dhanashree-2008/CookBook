@@ -1,0 +1,106 @@
+/* Reset */
+body, html, .welcome-page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 100px;   /* bigger padding for a grand feel */
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 32px;       /* bigger brand name */
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 45px;            /* spread out links */
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 20px;      /* bigger nav text */
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 120px;  /* more spacious */
+  gap: 80px;             /* wider gap between text & image */
+}
+
+.hero-text {
+  flex: 1.2;             /* text takes slightly more space */
+}
+
+.hero-text h1 {
+  font-size: 64px;       /* BIG headline */
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: #ff6600;
+}
+
+.hero-text p {
+  font-size: 22px;       /* bigger description */
+  margin-bottom: 40px;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.btn-black {
+  background: #222;
+  color: white;
+  padding: 18px 36px;    /* bigger button */
+  border: none;
+  border-radius: 35px;
+  font-size: 20px;       /* bigger text */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-black:hover {
+  background: #444;
+  transform: scale(1.08);  /* bigger hover effect */
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 750px;     /* much bigger image */
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.2);  /* stronger shadow */
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05); /* subtle zoom on hover */
+}
