@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Grilled Chicken",
+    "category": "Dinner",
+    "time": "45 mins",
+    "procedure": [
+      "Marinate chicken with olive oil, garlic, salt, pepper, and herbs for 15–20 minutes.",
+      "Preheat grill or oven to medium-high heat.",
+      "Place the chicken on the grill and cook for 6–8 minutes on each side until fully cooked.",
+      "Check the internal temperature reaches 165°F (74°C).",
+      "Remove from grill and let it rest for 5 minutes.",
+      "Serve hot with vegetables or rice."
+    ]
+  },
+  {
+    "title": "Spaghetti Bolognese",
+    "category": "Dinner",
+    "time": "40 mins",
+    "procedure": [
+      "Cook spaghetti according to package instructions and drain.",
+      "Heat olive oil in a pan, sauté onions and garlic until golden.",
+      "Add minced meat and cook until browned.",
+      "Pour in tomato sauce and simmer for 15–20 minutes.",
+      "Season with salt, pepper, and Italian herbs.",
+      "Serve spaghetti topped with the Bolognese sauce and grated cheese."
+    ]
+  },
+  {
+    "title": "Vegetable Stir Fry",
+    "category": "Dinner",
+    "time": "30 mins",
+    "procedure": [
+      "Chop vegetables like broccoli, carrots, bell peppers, and snow peas.",
+      "Heat oil in a wok or pan and sauté garlic and ginger for 1 minute.",
+      "Add vegetables and stir-fry for 5–7 minutes.",
+      "Add soy sauce, a pinch of sugar, and stir well.",
+      "Cook until vegetables are tender but still crisp.",
+      "Serve hot with steamed rice or noodles."
+    ]
+  },
+  {
+    "title": "Paneer Butter Masala",
+    "category": "Dinner",
+    "time": "35 mins",
+    "procedure": [
+      "Cube paneer and lightly fry until golden brown.",
+      "In a pan, heat butter and sauté onions and garlic until soft.",
+      "Add tomato puree, spices (garam masala, turmeric, chili powder) and cook for 5–7 minutes.",
+      "Add cream and mix well to form a rich gravy.",
+      "Add fried paneer cubes and simmer for 5 minutes.",
+      "Garnish with coriander and serve with naan or rice."
+    ]
+  },
+  {
+    "title": "Grilled Fish",
+    "category": "Dinner",
+    "time": "30 mins",
+    "procedure": [
+      "Marinate fish fillets with lemon juice, salt, pepper, and herbs for 10–15 minutes.",
+      "Preheat grill or oven to medium-high heat.",
+      "Grill fish for 5–7 minutes on each side until cooked through.",
+      "Remove from heat and drizzle with extra lemon juice.",
+      "Serve hot with a side salad or steamed vegetables."
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Samosa",
+    "category": "Snacks",
+    "time": "30 mins",
+    "procedure": [
+      "Prepare dough with flour, oil, and water.",
+      "Make filling with potatoes, peas, and spices.",
+      "Roll dough into small circles and cut in half.",
+      "Fold into a cone, fill with mixture, and seal edges.",
+      "Deep fry until golden and crisp.",
+      "Serve with chutney."
+    ]
+  },
+  {
+    "title": "Nachos",
+    "category": "Snacks",
+    "time": "15 mins",
+    "procedure": [
+      "Spread tortilla chips on a baking tray.",
+      "Top with cheese, jalapeños, and beans.",
+      "Bake until cheese melts.",
+      "Serve hot with salsa and guacamole."
+    ]
+  },
+  {
+    "title": "Spring Rolls",
+    "category": "Snacks",
+    "time": "25 mins",
+    "procedure": [
+      "Prepare filling with cabbage, carrots, and soy sauce.",
+      "Place filling on spring roll wrapper and roll tightly.",
+      "Seal edges with water or flour paste.",
+      "Deep fry until golden and crispy.",
+      "Serve with chili sauce."
+    ]
+  }
+]

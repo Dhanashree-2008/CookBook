@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Pasta",
+    "category": "Lunch",
+    "time": "30 mins",
+    "procedure": [
+      "Boil water in a large pot and add a pinch of salt.",
+      "Add pasta and cook according to package instructions until al dente.",
+      "Drain pasta and set aside.",
+      "In a pan, heat olive oil and sauté garlic until fragrant.",
+      "Add tomato sauce and season with salt, pepper, and herbs.",
+      "Add the cooked pasta to the sauce and toss well.",
+      "Serve hot with grated cheese and fresh basil."
+    ]
+  },
+  {
+    "title": "Burger",
+    "category": "Lunch",
+    "time": "20 mins",
+    "procedure": [
+      "Prepare burger patties with minced vegetables or meat, salt, pepper, and spices.",
+      "Grill or pan-fry the patties until fully cooked.",
+      "Toast burger buns lightly.",
+      "Assemble burger: place patty on bun, add cheese, lettuce, tomato, onion, and condiments.",
+      "Top with the other half of the bun and serve immediately."
+    ]
+  },
+  {
+    "title": "Pizza",
+    "category": "Lunch",
+    "time": "40 mins",
+    "procedure": [
+      "Preheat oven to 220°C (425°F).",
+      "Roll out the pizza dough on a floured surface.",
+      "Spread tomato sauce evenly over the dough.",
+      "Add toppings like cheese, vegetables, and pepperoni as desired.",
+      "Bake in the preheated oven for 12–15 minutes until crust is golden and cheese is melted.",
+      "Slice and serve hot."
+    ]
+  },
+  {
+    "title": "Soup",
+    "category": "Lunch",
+    "time": "35 mins",
+    "procedure": [
+      "Chop vegetables like carrots, potatoes, beans, and celery into small pieces.",
+      "In a pot, heat olive oil and sauté onions and garlic until fragrant.",
+      "Add the chopped vegetables and cook for 3–5 minutes.",
+      "Pour in vegetable stock and bring to a boil.",
+      "Reduce heat and simmer for 20–25 minutes until vegetables are tender.",
+      "Season with salt, pepper, and herbs.",
+      "Serve hot with a sprinkle of fresh parsley."
+    ]
+  },
+  {
+    "title": "Curry",
+    "category": "Lunch",
+    "time": "45 mins",
+    "procedure": [
+      "Chop vegetables such as carrots, bell peppers, potatoes, and peas.",
+      "Heat oil in a pan and sauté onions, garlic, and ginger until golden.",
+      "Add curry paste or spices and cook for 1–2 minutes.",
+      "Add the chopped vegetables and stir well.",
+      "Pour in coconut milk and simmer for 20–25 minutes until vegetables are tender.",
+      "Adjust seasoning with salt and pepper.",
+      "Serve hot with rice or bread."
+    ]
+  },
+  
+  {
+    "title": "Kebab",
+    "category": "Lunch",
+    "time": "35 mins",
+    "procedure": [
+      "Grate or finely chop vegetables like carrots, potatoes, and cabbage.",
+      "Mix vegetables with bread crumbs, salt, pepper, and spices to form a dough.",
+      "Shape the mixture into small kebabs or patties.",
+      "Heat oil in a pan or grill.",
+      "Cook kebabs on medium heat until golden brown on both sides.",
+      "Serve hot with chutney or sauce."
+    ]
+  }
+]

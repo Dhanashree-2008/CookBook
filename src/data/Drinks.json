@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Classic Mojito",
+    "category": "Drinks",
+    "time": "10 mins",
+    "procedure": [
+      "In a sturdy glass, muddle mint leaves with sugar and lime juice.",
+      "Fill the glass with ice cubes.",
+      "Pour in the white rum.",
+      "Top with club soda and stir gently.",
+      "Garnish with a lime wedge and a sprig of mint.",
+      "Serve immediately and enjoy."
+    ]
+  },
+  {
+    "title": "Mango Lassi",
+    "category": "Drinks",
+    "time": "5 mins",
+    "procedure": [
+      "Combine mango pulp, yogurt, milk, and sugar in a blender.",
+      "Blend until smooth and creamy.",
+      "If the lassi is too thick, add a little more milk and blend again.",
+      "Pour into tall glasses.",
+      "Garnish with a pinch of cardamom or a mint leaf.",
+      "Serve chilled."
+    ]
+  },
+  {
+    "title": "Iced Coffee",
+    "category": "Drinks",
+    "time": "5 mins",
+    "procedure": [
+      "Brew strong coffee and let it cool to room temperature.",
+      "Fill a glass with ice cubes.",
+      "Pour the cooled coffee over the ice.",
+      "Add milk or cream to your liking.",
+      "Stir in sugar or your preferred sweetener until dissolved.",
+      "Serve immediately for a refreshing boost."
+    ]
+  },
+  {
+    "title": "Fresh Lemonade",
+    "category": "Drinks",
+    "time": "10 mins",
+    "procedure": [
+      "Juice the lemons to get fresh lemon juice.",
+      "In a large pitcher, combine the lemon juice and cold water.",
+      "Add sugar and stir vigorously until it completely dissolves.",
+      "Taste and adjust sweetness if necessary.",
+      "Add ice cubes and lemon slices to the pitcher.",
+      "Serve chilled in glasses."
+    ]
+  },
+  {
+    "title": "Green Smoothie",
+    "category": "Drinks",
+    "time": "5 mins",
+    "procedure": [
+      "Place spinach, banana, and almond milk in a blender.",
+      "Add a spoonful of honey or maple syrup for sweetness.",
+      "You can also add a scoop of protein powder or chia seeds for an extra boost.",
+      "Blend on high speed until everything is smooth and well combined.",
+      "Pour into a glass.",
+      "Enjoy this healthy and energizing drink right away."
+    ]
+  }
+]

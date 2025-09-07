@@ -1,9 +1,9 @@
 import React from "react";
 import "./Breakfast.css";
 import { Link } from "react-router-dom";
-import recipes from "./data/recipes.json"; // ✅ fixed path
+import recipes from "./data/Breakfast.json";
 
-// Images
+// ✅ Import breakfast images
 import appleBreakfast from "./assets/apple.jpg";
 import plantainFritata from "./assets/Frittata-V2.jpg";
 import hashBrowns from "./assets/hashbrowns.jpg";
@@ -35,11 +35,14 @@ const imageMap = {
 };
 
 export default function BreakfastPage() {
+  // ✅ Only pick breakfast recipes
+  const breakfastRecipes = recipes.filter(item => item.category === "Breakfast");
+
   return (
     <div className="breakfast-container">
       <h1 className="title">Breakfast</h1>
       <div className="cards-grid">
-        {recipes.map((item, index) => (
+        {breakfastRecipes.map((item, index) => (
           <div key={index} className="card">
             <img
               src={imageMap[item.title]}
@@ -49,7 +52,7 @@ export default function BreakfastPage() {
             <p className="category">{item.category.toUpperCase()}</p>
             <h2 className="card-title">{item.title}</h2>
             <p className="time">{item.time}</p>
-            <Link to={`/breakfast/${index}`}>   {/* ✅ fixed route */}
+            <Link to={`/breakfast/${index}`}>
               <button className="view-btn">View Recipe</button>
             </Link>
           </div>
