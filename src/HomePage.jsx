@@ -7,7 +7,8 @@ import lunchImg from "./assets/lunch.jpg";
 import dinnerImg from "./assets/dinner.jpg";
 import drinksImg from "./assets/drinks.jpg";
 import snacksImg from "./assets/snacks.jpg";
-import saladsImg from "./assets/desserts.jpg"; // ✅ keep this as is
+import dessertsImg from "./assets/desserts.jpg"; 
+import ingredientsImg from "./assets/ingredients.jpg"; // ✅ new image
 
 const mealItems = [
   {
@@ -42,9 +43,15 @@ const mealItems = [
   },
   {
     category: "Sweet Treats",
-    title: "Desserts",   // ✅ plural
-    image: saladsImg,    // ✅ keep your existing variable
-    path: "/desserts",   // ✅ plural to match App.js route
+    title: "Desserts",
+    image: dessertsImg,
+    path: "/desserts",
+  },
+  {
+    category: "Smart Cooking",
+    title: "Find by Ingredients",   // ✅ new card
+    image: ingredientsImg,
+    path: "/ingredients",          // ✅ new route
   },
 ];
 

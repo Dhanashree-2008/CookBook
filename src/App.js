@@ -11,6 +11,8 @@ import DessertsPage from "./DessertsPage.jsx";
 import RecipePage from "./RecipePage.jsx";
 import AboutPage from "./AboutUs.jsx";  
 import FAQPage from "./FAQPage.jsx";
+import FindByIngredients from "./FindByIngredients.jsx";
+
   
 function App() {
   return (
@@ -46,6 +48,7 @@ function App() {
         {/* Other pages */}
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faqs" element={<FAQPage />} /> 
+        <Route path="/ingredients" element={<FindByIngredients />} />
       </Routes>
     </Router>
   );

@@ -3,6 +3,15 @@
     "title": "Classic Mojito",
     "category": "Drinks",
     "time": "10 mins",
+    "ingredients": [
+      "10 fresh mint leaves",
+      "2 tsp sugar",
+      "1 lime (juiced)",
+      "1/2 cup ice cubes",
+      "2 oz white rum",
+      "1/2 cup club soda",
+      "Lime wedge and mint sprig for garnish"
+    ],
     "procedure": [
       "In a sturdy glass, muddle mint leaves with sugar and lime juice.",
       "Fill the glass with ice cubes.",
@@ -16,6 +25,13 @@
     "title": "Mango Lassi",
     "category": "Drinks",
     "time": "5 mins",
+    "ingredients": [
+      "1 cup mango pulp (fresh or canned)",
+      "1/2 cup yogurt",
+      "1/4 cup milk",
+      "2 tbsp sugar",
+      "Pinch of cardamom or mint leaf (for garnish)"
+    ],
     "procedure": [
       "Combine mango pulp, yogurt, milk, and sugar in a blender.",
       "Blend until smooth and creamy.",
@@ -29,6 +45,12 @@
     "title": "Iced Coffee",
     "category": "Drinks",
     "time": "5 mins",
+    "ingredients": [
+      "1 cup strong brewed coffee (cooled)",
+      "1/2 cup ice cubes",
+      "1/4 cup milk or cream",
+      "1–2 tsp sugar or sweetener"
+    ],
     "procedure": [
       "Brew strong coffee and let it cool to room temperature.",
       "Fill a glass with ice cubes.",
@@ -42,6 +64,13 @@
     "title": "Fresh Lemonade",
     "category": "Drinks",
     "time": "10 mins",
+    "ingredients": [
+      "4 lemons (juiced)",
+      "4 cups cold water",
+      "1/2 cup sugar",
+      "Ice cubes",
+      "Lemon slices for garnish"
+    ],
     "procedure": [
       "Juice the lemons to get fresh lemon juice.",
       "In a large pitcher, combine the lemon juice and cold water.",
@@ -55,6 +84,13 @@
     "title": "Green Smoothie",
     "category": "Drinks",
     "time": "5 mins",
+    "ingredients": [
+      "1 cup fresh spinach",
+      "1 banana",
+      "1 cup almond milk",
+      "1 tbsp honey or maple syrup",
+      "Optional: 1 scoop protein powder or 1 tbsp chia seeds"
+    ],
     "procedure": [
       "Place spinach, banana, and almond milk in a blender.",
       "Add a spoonful of honey or maple syrup for sweetness.",

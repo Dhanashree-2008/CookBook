@@ -3,6 +3,16 @@
     "title": "Pasta",
     "category": "Lunch",
     "time": "30 mins",
+    "ingredients": [
+      "200g pasta",
+      "2 tbsp olive oil",
+      "2 cloves garlic (minced)",
+      "1 cup tomato sauce",
+      "1 tsp dried herbs (oregano/basil)",
+      "Salt and pepper to taste",
+      "Grated cheese",
+      "Fresh basil (optional)"
+    ],
     "procedure": [
       "Boil water in a large pot and add a pinch of salt.",
       "Add pasta and cook according to package instructions until al dente.",
@@ -17,6 +27,16 @@
     "title": "Burger",
     "category": "Lunch",
     "time": "20 mins",
+    "ingredients": [
+      "2 burger buns",
+      "2 burger patties (veg or meat)",
+      "Lettuce leaves",
+      "Tomato slices",
+      "Onion slices",
+      "Cheese slices",
+      "Salt and pepper",
+      "Condiments (ketchup, mayo, mustard)"
+    ],
     "procedure": [
       "Prepare burger patties with minced vegetables or meat, salt, pepper, and spices.",
       "Grill or pan-fry the patties until fully cooked.",
@@ -29,6 +49,13 @@
     "title": "Pizza",
     "category": "Lunch",
     "time": "40 mins",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup shredded mozzarella cheese",
+      "Toppings (vegetables, pepperoni, mushrooms, olives)",
+      "1 tbsp olive oil"
+    ],
     "procedure": [
       "Preheat oven to 220°C (425°F).",
       "Roll out the pizza dough on a floured surface.",
@@ -42,6 +69,17 @@
     "title": "Soup",
     "category": "Lunch",
     "time": "35 mins",
+    "ingredients": [
+      "1 onion (chopped)",
+      "2 cloves garlic (minced)",
+      "2 carrots (chopped)",
+      "2 potatoes (chopped)",
+      "1/2 cup beans",
+      "1 celery stalk",
+      "4 cups vegetable stock",
+      "2 tbsp olive oil",
+      "Salt, pepper, and herbs"
+    ],
     "procedure": [
       "Chop vegetables like carrots, potatoes, beans, and celery into small pieces.",
       "In a pot, heat olive oil and sauté onions and garlic until fragrant.",
@@ -56,6 +94,19 @@
     "title": "Curry",
     "category": "Lunch",
     "time": "45 mins",
+    "ingredients": [
+      "1 onion (chopped)",
+      "2 cloves garlic",
+      "1-inch ginger",
+      "2 carrots",
+      "1 bell pepper",
+      "1 potato",
+      "1/2 cup peas",
+      "2 tbsp curry paste or spices",
+      "1 can coconut milk",
+      "2 tbsp oil",
+      "Salt and pepper"
+    ],
     "procedure": [
       "Chop vegetables such as carrots, bell peppers, potatoes, and peas.",
       "Heat oil in a pan and sauté onions, garlic, and ginger until golden.",
@@ -66,11 +117,19 @@
       "Serve hot with rice or bread."
     ]
   },
-  
   {
     "title": "Kebab",
     "category": "Lunch",
     "time": "35 mins",
+    "ingredients": [
+      "1 carrot (grated)",
+      "1 potato (boiled and mashed)",
+      "1/4 cabbage (finely chopped)",
+      "1/4 cup bread crumbs",
+      "1 tsp garam masala or spices",
+      "Salt and pepper",
+      "2 tbsp oil for frying"
+    ],
     "procedure": [
       "Grate or finely chop vegetables like carrots, potatoes, and cabbage.",
       "Mix vegetables with bread crumbs, salt, pepper, and spices to form a dough.",

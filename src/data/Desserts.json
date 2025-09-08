@@ -3,6 +3,16 @@
     "title": "Chocolate Cake",
     "category": "Desserts",
     "time": "45 mins",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "1/2 cup cocoa powder",
+      "1 cup sugar",
+      "1 1/2 tsp baking powder",
+      "1/2 tsp salt",
+      "2 eggs",
+      "1 cup milk",
+      "1/2 cup butter"
+    ],
     "procedure": [
       "Preheat oven to 180°C (350°F).",
       "Mix flour, cocoa powder, sugar, baking powder, and salt in a bowl.",
@@ -16,6 +26,12 @@
     "title": "Ice Cream",
     "category": "Desserts",
     "time": "20 mins (+ freezing)",
+    "ingredients": [
+      "2 cups heavy cream",
+      "1 cup whole milk",
+      "3/4 cup sugar",
+      "1 tsp vanilla extract"
+    ],
     "procedure": [
       "Whisk together cream, milk, sugar, and vanilla extract.",
       "Pour into an ice cream maker and churn until thick.",
@@ -27,6 +43,15 @@
     "title": "Brownies",
     "category": "Desserts",
     "time": "40 mins",
+    "ingredients": [
+      "1/2 cup butter",
+      "200 g dark chocolate",
+      "1 cup sugar",
+      "2 eggs",
+      "1 tsp vanilla extract",
+      "3/4 cup all-purpose flour",
+      "1/4 cup cocoa powder"
+    ],
     "procedure": [
       "Preheat oven to 180°C (350°F).",
       "Melt butter and chocolate together.",
@@ -40,6 +65,14 @@
     "title": "Cheesecake",
     "category": "Desserts",
     "time": "1 hr",
+    "ingredients": [
+      "200 g biscuits (crushed)",
+      "1/2 cup melted butter",
+      "500 g cream cheese",
+      "3/4 cup sugar",
+      "3 eggs",
+      "1 tsp vanilla extract"
+    ],
     "procedure": [
       "Preheat oven to 160°C (320°F).",
       "Mix crushed biscuits with melted butter and press into a springform pan.",
@@ -52,6 +85,12 @@
     "title": "Fruit Tart",
     "category": "Desserts",
     "time": "50 mins",
+    "ingredients": [
+      "1 tart shell (pre-baked or homemade)",
+      "2 cups pastry cream",
+      "Fresh fruits (strawberries, kiwi, blueberries)",
+      "2 tbsp sugar syrup or apricot glaze"
+    ],
     "procedure": [
       "Bake a tart shell until golden brown.",
       "Prepare pastry cream and let it cool.",

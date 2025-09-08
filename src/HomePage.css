@@ -6,12 +6,14 @@
 }
 
 .home-grid {
-  display: flex;
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* center vertically */
-  gap: 2rem;                 /* spacing between cards */
-  flex-wrap: wrap;           /* wrap if screen is small */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* flexible grid */
+  gap: 2rem;
+  justify-items: center;
+  width: 100%;
+  max-width: 1200px;
 }
+
 
 .home-card {
   background: #fff;

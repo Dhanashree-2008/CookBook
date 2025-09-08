@@ -3,6 +3,14 @@
     "title": "Grilled Chicken",
     "category": "Dinner",
     "time": "45 mins",
+    "ingredients": [
+      "4 chicken breasts",
+      "2 tbsp olive oil",
+      "3 garlic cloves (minced)",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1 tsp mixed herbs (thyme, oregano, or rosemary)"
+    ],
     "procedure": [
       "Marinate chicken with olive oil, garlic, salt, pepper, and herbs for 15–20 minutes.",
       "Preheat grill or oven to medium-high heat.",
@@ -16,6 +24,17 @@
     "title": "Spaghetti Bolognese",
     "category": "Dinner",
     "time": "40 mins",
+    "ingredients": [
+      "200 g spaghetti",
+      "2 tbsp olive oil",
+      "1 onion (chopped)",
+      "2 garlic cloves (minced)",
+      "250 g minced meat (beef, chicken, or turkey)",
+      "1 cup tomato sauce",
+      "1 tsp Italian herbs",
+      "Salt and pepper to taste",
+      "Grated cheese for topping"
+    ],
     "procedure": [
       "Cook spaghetti according to package instructions and drain.",
       "Heat olive oil in a pan, sauté onions and garlic until golden.",
@@ -29,6 +48,17 @@
     "title": "Vegetable Stir Fry",
     "category": "Dinner",
     "time": "30 mins",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 carrot (sliced)",
+      "1 bell pepper (sliced)",
+      "1/2 cup snow peas",
+      "2 tbsp oil",
+      "2 garlic cloves (minced)",
+      "1 tsp ginger (grated)",
+      "2 tbsp soy sauce",
+      "1/2 tsp sugar"
+    ],
     "procedure": [
       "Chop vegetables like broccoli, carrots, bell peppers, and snow peas.",
       "Heat oil in a wok or pan and sauté garlic and ginger for 1 minute.",
@@ -42,6 +72,18 @@
     "title": "Paneer Butter Masala",
     "category": "Dinner",
     "time": "35 mins",
+    "ingredients": [
+      "200 g paneer (cubed)",
+      "2 tbsp butter",
+      "1 onion (finely chopped)",
+      "2 garlic cloves (minced)",
+      "1 cup tomato puree",
+      "1/2 tsp garam masala",
+      "1/2 tsp turmeric",
+      "1 tsp chili powder",
+      "1/2 cup cream",
+      "Fresh coriander for garnish"
+    ],
     "procedure": [
       "Cube paneer and lightly fry until golden brown.",
       "In a pan, heat butter and sauté onions and garlic until soft.",
@@ -55,6 +97,13 @@
     "title": "Grilled Fish",
     "category": "Dinner",
     "time": "30 mins",
+    "ingredients": [
+      "2 fish fillets",
+      "2 tbsp lemon juice",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1 tsp herbs (dill, parsley, or oregano)"
+    ],
     "procedure": [
       "Marinate fish fillets with lemon juice, salt, pepper, and herbs for 10–15 minutes.",
       "Preheat grill or oven to medium-high heat.",

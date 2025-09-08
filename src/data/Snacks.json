@@ -3,6 +3,18 @@
     "title": "Samosa",
     "category": "Snacks",
     "time": "30 mins",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "2 tbsp oil or ghee",
+      "Water (as needed for dough)",
+      "2 boiled potatoes (mashed)",
+      "1/2 cup peas",
+      "1 tsp cumin seeds",
+      "1 tsp garam masala",
+      "1 tsp chili powder",
+      "Salt to taste",
+      "Oil for deep frying"
+    ],
     "procedure": [
       "Prepare dough with flour, oil, and water.",
       "Make filling with potatoes, peas, and spices.",
@@ -16,6 +28,14 @@
     "title": "Nachos",
     "category": "Snacks",
     "time": "15 mins",
+    "ingredients": [
+      "Tortilla chips",
+      "1/2 cup grated cheese",
+      "1/4 cup jalapeños (sliced)",
+      "1/2 cup cooked beans",
+      "Salsa",
+      "Guacamole"
+    ],
     "procedure": [
       "Spread tortilla chips on a baking tray.",
       "Top with cheese, jalapeños, and beans.",
@@ -27,6 +47,15 @@
     "title": "Spring Rolls",
     "category": "Snacks",
     "time": "25 mins",
+    "ingredients": [
+      "Spring roll wrappers",
+      "1 cup cabbage (shredded)",
+      "1 carrot (julienned)",
+      "2 tbsp soy sauce",
+      "1 tbsp cornflour paste (for sealing)",
+      "Salt and pepper to taste",
+      "Oil for deep frying"
+    ],
     "procedure": [
       "Prepare filling with cabbage, carrots, and soy sauce.",
       "Place filling on spring roll wrapper and roll tightly.",

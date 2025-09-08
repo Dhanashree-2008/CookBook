@@ -1,0 +1,65 @@
+.ingredients-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ingredients-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.ingredients-subtitle {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.ingredients-input-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ingredients-input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.ingredients-btn {
+  padding: 0.6rem 1.2rem;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ingredients-btn:hover {
+  background-color: #e85c2f;
+}
+
+.ingredients-results {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.ingredients-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.no-results {
+  color: #777;
+  font-style: italic;
+}
