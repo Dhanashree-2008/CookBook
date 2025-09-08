@@ -23,12 +23,10 @@ export default function WelcomePage() {
         <div className="hero-text">
           <h1>
             Spice Up Your Life:{" "}
-            <span className="highlight">Authentic Indian Recipes</span>
+            <span className="highlight"> with Flavorful Recipes</span>
           </h1>
           <p>
-            Discover handpicked recipes, plan your meals, and enjoy Indian
-            flavors like never before. From street food to royal thalis – all in
-            one place.
+           Discover handpicked dishes, plan your meals with ease, and enjoy delicious flavors — from quick bites to hearty feasts, all in one place.
           </p>
 
           {/* 👇 Get Started Button */}

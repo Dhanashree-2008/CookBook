@@ -7,6 +7,7 @@ import lunchRecipes from "./data/lunch.json";
 import dinnerRecipes from "./data/Dinner.json";
 import drinkRecipes from "./data/Drinks.json";
 import snackRecipes from "./data/Snacks.json";
+import dessertRecipes from "./data/Desserts.json";
 
 // Import images
 // Breakfast
@@ -51,6 +52,13 @@ import samosa from "./assets/samosa.jpg";
 import nachos from "./assets/nachos.jpg";
 import springRolls from "./assets/springrolls.jpg";
 
+// Desserts
+import chocolateCake from "./assets/chocolatecake.jpg";
+import iceCream from "./assets/icecream.jpg";
+import brownies from "./assets/brownies.jpg";
+import cheesecake from "./assets/cheesecake.jpg";
+import fruitTart from "./assets/fruittart.jpg";
+
 // Map recipe titles to images
 const imageMap = {
   // Breakfast
@@ -94,7 +102,15 @@ const imageMap = {
   "Samosa": samosa,
   "Nachos": nachos,
   "Spring Rolls": springRolls,
+
+  //Desserts
+  "Chocolate Cake": chocolateCake,
+  "Ice Cream": iceCream,   
+  "Brownies": brownies,
+  "Cheesecake": cheesecake,
+  "Fruit Tart": fruitTart,
 };
+
 
 export default function RecipePage() {
   const { id } = useParams();
@@ -112,6 +128,8 @@ export default function RecipePage() {
     recipes = drinkRecipes;
   } else if (location.pathname.startsWith("/snacks")) {
     recipes = snackRecipes; 
+  } else if (location.pathname.startsWith("/desserts")) {
+    recipes = dessertRecipes;
   }
 
   const recipeIndex = Number(id);

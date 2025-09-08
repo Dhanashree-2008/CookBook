@@ -7,20 +7,20 @@ import lunchImg from "./assets/lunch.jpg";
 import dinnerImg from "./assets/dinner.jpg";
 import drinksImg from "./assets/drinks.jpg";
 import snacksImg from "./assets/snacks.jpg";
-import saladsImg from "./assets/desserts.jpg";
+import saladsImg from "./assets/desserts.jpg"; // ✅ keep this as is
 
 const mealItems = [
   {
     category: "Morning Meals",
     title: "Breakfast",
     image: breakfastImg,
-    path: "/breakfast",   // ✅ fixed
+    path: "/breakfast",
   },
   {
     category: "Afternoon Specials",
     title: "Lunch",
     image: lunchImg,
-    path: "/lunch",       // 🚧 only works if you add LunchPage
+    path: "/lunch",
   },
   {
     category: "Evening Treats",
@@ -42,9 +42,9 @@ const mealItems = [
   },
   {
     category: "Sweet Treats",
-    title: "Dessert",
-    image: saladsImg,
-    path: "/dessert",
+    title: "Desserts",   // ✅ plural
+    image: saladsImg,    // ✅ keep your existing variable
+    path: "/desserts",   // ✅ plural to match App.js route
   },
 ];
 

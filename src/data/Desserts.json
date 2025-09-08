@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Chocolate Cake",
+    "category": "Desserts",
+    "time": "45 mins",
+    "procedure": [
+      "Preheat oven to 180°C (350°F).",
+      "Mix flour, cocoa powder, sugar, baking powder, and salt in a bowl.",
+      "Add eggs, milk, and butter, then whisk until smooth.",
+      "Pour batter into a greased cake pan.",
+      "Bake for 30-35 minutes until a toothpick comes out clean.",
+      "Let it cool before serving."
+    ]
+  },
+  {
+    "title": "Ice Cream",
+    "category": "Desserts",
+    "time": "20 mins (+ freezing)",
+    "procedure": [
+      "Whisk together cream, milk, sugar, and vanilla extract.",
+      "Pour into an ice cream maker and churn until thick.",
+      "Transfer to a container and freeze for 4 hours.",
+      "Scoop and serve chilled."
+    ]
+  },
+  {
+    "title": "Brownies",
+    "category": "Desserts",
+    "time": "40 mins",
+    "procedure": [
+      "Preheat oven to 180°C (350°F).",
+      "Melt butter and chocolate together.",
+      "Stir in sugar, eggs, and vanilla extract.",
+      "Fold in flour and cocoa powder.",
+      "Pour into a greased baking pan.",
+      "Bake for 25–30 minutes, then cool before cutting."
+    ]
+  },
+  {
+    "title": "Cheesecake",
+    "category": "Desserts",
+    "time": "1 hr",
+    "procedure": [
+      "Preheat oven to 160°C (320°F).",
+      "Mix crushed biscuits with melted butter and press into a springform pan.",
+      "Beat cream cheese, sugar, eggs, and vanilla until smooth.",
+      "Pour mixture over crust and bake for 50 minutes.",
+      "Chill in the fridge for at least 4 hours before serving."
+    ]
+  },
+  {
+    "title": "Fruit Tart",
+    "category": "Desserts",
+    "time": "50 mins",
+    "procedure": [
+      "Bake a tart shell until golden brown.",
+      "Prepare pastry cream and let it cool.",
+      "Fill the tart shell with the cream.",
+      "Top with assorted fresh fruits like strawberries, kiwi, and blueberries.",
+      "Glaze with a light sugar syrup for shine.",
+      "Chill and serve."
+    ]
+  }
+]
