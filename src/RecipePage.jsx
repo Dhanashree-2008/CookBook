@@ -103,14 +103,13 @@ const imageMap = {
   "Nachos": nachos,
   "Spring Rolls": springRolls,
 
-  //Desserts
+  // Desserts
   "Chocolate Cake": chocolateCake,
   "Ice Cream": iceCream,   
   "Brownies": brownies,
   "Cheesecake": cheesecake,
   "Fruit Tart": fruitTart,
 };
-
 
 export default function RecipePage() {
   const { id } = useParams();
@@ -154,6 +153,15 @@ export default function RecipePage() {
       <p><strong>Category:</strong> {recipe.category}</p>
       <p><strong>Time:</strong> {recipe.time}</p>
 
+      {/* ✅ Show Ingredients */}
+      <h3>Ingredients</h3>
+      <ul>
+        {recipe.ingredients.map((ingredient, index) => (
+          <li key={index}>{ingredient}</li>
+        ))}
+      </ul>
+
+      {/* ✅ Show Procedure */}
       <h3>Procedure</h3>
       <ol>
         {recipe.procedure.map((step, index) => (

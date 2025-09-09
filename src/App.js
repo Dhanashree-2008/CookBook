@@ -13,7 +13,6 @@ import AboutPage from "./AboutUs.jsx";
 import FAQPage from "./FAQPage.jsx";
 import FindByIngredients from "./FindByIngredients.jsx";
 
-  
 function App() {
   return (
     <Router>
@@ -23,7 +22,7 @@ function App() {
 
         {/* Breakfast */}
         <Route path="/breakfast" element={<BreakfastPage />} />
-        <Route path="/breakfast/:id" element={<RecipePage />} />
+        <Route path="/breakfast/:id" element={<RecipePage />} /> 
 
         {/* Lunch */}
         <Route path="/lunch" element={<LunchPage />} />
@@ -41,7 +40,7 @@ function App() {
         <Route path="/snacks" element={<SnacksPage />} />
         <Route path="/snacks/:id" element={<RecipePage />} />
 
-        {/* Desserts  */}
+        {/* Desserts */}
         <Route path="/desserts" element={<DessertsPage />} />
         <Route path="/desserts/:id" element={<RecipePage />} />
 

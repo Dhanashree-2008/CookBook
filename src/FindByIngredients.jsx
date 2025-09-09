@@ -18,7 +18,7 @@ export default function FindByIngredients() {
       return;
     }
 
-    // 🔎 Match if recipe procedure includes all entered ingredients
+
     const matches = allRecipes.filter((recipe) =>
       ingredients.every((ing) =>
         recipe.procedure.join(" ").toLowerCase().includes(ing)

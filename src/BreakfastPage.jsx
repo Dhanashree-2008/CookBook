@@ -1,6 +1,6 @@
 import React from "react";
 import "./Breakfast.css";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import recipes from "./data/Breakfast.json";
 
 // ✅ Import breakfast images
@@ -35,9 +35,50 @@ const imageMap = {
 };
 
 export default function BreakfastPage() {
-  // ✅ Only pick breakfast recipes
-  const breakfastRecipes = recipes.filter(item => item.category === "Breakfast");
+  const { id } = useParams(); // check if recipe id is in URL
+  const breakfastRecipes = recipes.filter(
+    (item) => item.category === "Breakfast"
+  );
 
+  // ✅ If an ID is present → show detail view
+  if (id !== undefined) {
+    const recipe = breakfastRecipes[id];
+    if (!recipe) return <h2>Recipe not found</h2>;
+
+    return (
+      <div className="recipe-detail">
+        <h1>{recipe.title}</h1>
+        <p><b>Category:</b> {recipe.category}</p>
+        <p><b>Time:</b> {recipe.time}</p>
+
+        <div className="recipe-sections">
+          <div className="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              {recipe.ingredients.map((ing, idx) => (
+                <li key={idx}>{ing}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="procedure">
+            <h3>Procedure</h3>
+            <ol>
+              {recipe.procedure.map((step, idx) => (
+                <li key={idx}>{step}</li>
+              ))}
+            </ol>
+          </div>
+        </div>
+
+        <Link to="/breakfast">
+          <button className="back-btn">⬅ Back to Breakfast</button>
+        </Link>
+      </div>
+    );
+  }
+
+  // ✅ Otherwise → show all breakfast recipes
   return (
     <div className="breakfast-container">
       <h1 className="title">Breakfast</h1>

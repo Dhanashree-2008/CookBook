@@ -1,6 +1,6 @@
 import React from "react";
-import "./Snacks.css"; // You can reuse Lunch.css if styles are same
-import { Link } from "react-router-dom";
+import "./Snacks.css"; 
+import { Link, useParams } from "react-router-dom";
 import snackRecipes from "./data/Snacks.json";
 
 // Import snack images
@@ -15,8 +15,48 @@ const imageMap = {
 };
 
 export default function SnacksPage() {
-  const snacks = snackRecipes.filter(item => item.category === "Snacks");
+  const { id } = useParams();
+  const snacks = snackRecipes.filter((item) => item.category === "Snacks");
 
+  // ✅ Detail page if ID exists
+  if (id !== undefined) {
+    const recipe = snacks[id];
+    if (!recipe) return <h2>Recipe not found</h2>;
+
+    return (
+      <div className="recipe-detail">
+        <h1>{recipe.title}</h1>
+        <p><b>Category:</b> {recipe.category}</p>
+        <p><b>Time:</b> {recipe.time}</p>
+
+        <div className="recipe-sections">
+          <div className="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              {recipe.ingredients.map((ing, idx) => (
+                <li key={idx}>{ing}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="procedure">
+            <h3>Procedure</h3>
+            <ol>
+              {recipe.procedure.map((step, idx) => (
+                <li key={idx}>{step}</li>
+              ))}
+            </ol>
+          </div>
+        </div>
+
+        <Link to="/snacks">
+          <button className="back-btn">⬅ Back to Snacks</button>
+        </Link>
+      </div>
+    );
+  }
+
+  // ✅ List page
   return (
     <div className="lunch-container"> {/* Reuse Lunch CSS */}
       <h1 className="title">Snacks</h1>

@@ -11,26 +11,25 @@ body, html, .welcome-page {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 100px;   /* bigger padding for a grand feel */
+  padding: 25px 100px;   
   background: white;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .logo {
-  font-size: 32px;       /* bigger brand name */
-  font-weight: bold;
+  font-size: 32px;       
   color: #ff6600;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 45px;            /* spread out links */
+  gap: 45px;            
 }
 
 .nav-links li {
   cursor: pointer;
-  font-size: 20px;      /* bigger nav text */
+  font-size: 20px;      
   font-weight: 500;
   transition: color 0.3s;
 }
@@ -44,16 +43,16 @@ body, html, .welcome-page {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 100px 120px;  /* more spacious */
-  gap: 80px;             /* wider gap between text & image */
+  padding: 100px 120px;  
+  gap: 80px;             
 }
 
 .hero-text {
-  flex: 1.2;             /* text takes slightly more space */
+  flex: 1.2;             
 }
 
 .hero-text h1 {
-  font-size: 64px;       /* BIG headline */
+  font-size: 64px;      
   line-height: 1.2;
   margin-bottom: 30px;
 }
@@ -63,7 +62,7 @@ body, html, .welcome-page {
 }
 
 .hero-text p {
-  font-size: 22px;       /* bigger description */
+  font-size: 22px;       
   margin-bottom: 40px;
   line-height: 1.8;
   max-width: 600px;
@@ -72,10 +71,10 @@ body, html, .welcome-page {
 .btn-black {
   background: #222;
   color: white;
-  padding: 18px 36px;    /* bigger button */
+  padding: 18px 36px;    
   border: none;
   border-radius: 35px;
-  font-size: 20px;       /* bigger text */
+  font-size: 20px;       
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
@@ -83,7 +82,7 @@ body, html, .welcome-page {
 
 .btn-black:hover {
   background: #444;
-  transform: scale(1.08);  /* bigger hover effect */
+  transform: scale(1.08);  
 }
 
 /* Hero Image */
@@ -95,12 +94,12 @@ body, html, .welcome-page {
 
 .hero-image img {
   width: 100%;
-  max-width: 750px;     /* much bigger image */
+  max-width: 750px;     
   border-radius: 20px;
-  box-shadow: 0 12px 28px rgba(0,0,0,0.2);  /* stronger shadow */
+  box-shadow: 0 12px 28px rgba(0,0,0,0.2);  
   transition: transform 0.3s ease;
 }
 
 .hero-image img:hover {
-  transform: scale(1.05); /* subtle zoom on hover */
+  transform: scale(1.05); 
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Dinner.css"; // Reuse the same CSS as Lunch
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import dinnerRecipes from "./data/Dinner.json";
 
 // Import dinner images
@@ -19,11 +19,50 @@ const imageMap = {
 };
 
 export default function DinnerPage() {
-  // Filter only Dinner recipes (optional if Dinner.json has only Dinner)
-  const dinner = dinnerRecipes.filter(item => item.category === "Dinner");
+  const { id } = useParams();
+  const dinner = dinnerRecipes.filter((item) => item.category === "Dinner");
 
+  // ✅ Detail view if `id` is present
+  if (id !== undefined) {
+    const recipe = dinner[id];
+    if (!recipe) return <h2>Recipe not found</h2>;
+
+    return (
+      <div className="recipe-detail">
+        <h1>{recipe.title}</h1>
+        <p><b>Category:</b> {recipe.category}</p>
+        <p><b>Time:</b> {recipe.time}</p>
+
+        <div className="recipe-sections">
+          <div className="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+              {recipe.ingredients.map((ing, idx) => (
+                <li key={idx}>{ing}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="procedure">
+            <h3>Procedure</h3>
+            <ol>
+              {recipe.procedure.map((step, idx) => (
+                <li key={idx}>{step}</li>
+              ))}
+            </ol>
+          </div>
+        </div>
+
+        <Link to="/dinner">
+          <button className="back-btn">⬅ Back to Dinner</button>
+        </Link>
+      </div>
+    );
+  }
+
+  // ✅ List view
   return (
-    <div className="lunch-container"> {/* Use same class as Lunch */}
+    <div className="lunch-container"> {/* Using same CSS as Lunch */}
       <h1 className="title">Dinner</h1>
       <div className="cards-grid">
         {dinner.map((item, index) => (
