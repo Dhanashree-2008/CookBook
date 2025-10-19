@@ -31,7 +31,7 @@ export default function WelcomePage() {
 
           {/* 👇 Get Started Button */}
           <button className="btn-black" onClick={() => navigate("/home")}>
-            🚀 Get Started
+            Browse Category
           </button>
         </div>
 
